@@ -1,11 +1,13 @@
 # wow-fishing
 Machine Learning–Based WoW Auto Fishing
 
-# 설명
-# 빌드 환경
-Python 3.7.16
+## Description
+A machine learning-based automatic fishing program for World of Warcraft.
 
-### requirements
+## Build Environment
+- Python 3.7.16
+
+## Requirements
 ```
 tensorflow==2.3
 keras==2.4
@@ -17,3 +19,47 @@ PyMsgBox==1.0.9
 opencv-python==4.6.0.66
 pywin32==305
 ```
+
+## Installation & Setup
+
+### 1. Environment Setup
+1. Create and activate Conda environment
+   ```bash
+   conda create -n wow python=3.7.16
+   conda activate wow
+   ```
+
+2. Clone the project
+   ```bash
+   git clone ...
+   ```
+
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### 2. Model Weights Preparation
+4. Extract RAR files
+   - Extract `src\Data\Model_Weights\*.rar` files to generate `trained_weights_final.h5`
+
+### 3. Game Configuration
+5. Launch World of Warcraft
+6. Resize game client: Set to 1/4 of screen size
+7. Action bar setup: Place fishing cast button in slot '1'
+8. Game settings: Enable Auto Loot
+9. Adjust camera view: Position camera so the fishing bobber is clearly visible
+
+### 4. Run the Program
+10. Navigate to source directory
+    ```bash
+    cd src
+    ```
+
+11. Run the program
+    ```bash
+    python wow_fishing_checker.py
+    ```
+
+12. Adjust sub-window positions as needed
+
