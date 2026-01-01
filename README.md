@@ -64,3 +64,5 @@ pywin32==305
 12. Adjust sub-window positions as needed
 
 <img width="2784" height="1680" alt="Image" src="https://github.com/user-attachments/assets/43100f55-ba96-486f-9aec-9a282b076d7d" />
+
+https://www.youtube.com/watch?v=5MDABw8fMuM
