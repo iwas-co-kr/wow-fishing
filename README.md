@@ -1,2 +1,2 @@
-# wow-fishing-bot
+# wow-fishing
 Machine Learning–Based WoW Auto Fishing
